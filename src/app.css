@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.gradient {
+	background: rgb(0, 0, 0);
+	background: radial-gradient(
+		circle,
+		rgba(0, 0, 0, 0.6486053894213936) 0%,
+		rgba(0, 0, 0, 0.5281572101496849) 50%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+
+@font-face {
+	font-family: 'jersey15';
+	src: url('/fonts/Jersey15-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'tiny5';
+	src: url('/fonts/Tiny5-Regular.ttf');
+}

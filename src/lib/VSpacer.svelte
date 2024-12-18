@@ -1,0 +1,1 @@
+<div class="min-h-4 w-full bg-orange-500"></div>
