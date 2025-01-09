@@ -58,7 +58,7 @@
 </script>
 
 <section
-	class="relative flex h-full min-w-[30%] bg-[#2e222f]"
+	class="relative flex h-full bg-[#2e222f] w-full xl:min-w-[30rem] xl:max-w-[30rem]"
 	style="background-size: 10%; image-rendering: pixelated; background-image: url({brick});"
 >
 	<RenameBakery bind:bakeryname bind:open={renameBackeryOpen} />
