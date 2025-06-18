@@ -1,1 +1,1 @@
-<div class="min-h-4 w-full bg-orange-500"></div>
+<div class="min-h-1 w-full bg-[#150f15]"></div>
