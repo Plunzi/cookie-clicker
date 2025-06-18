@@ -10,7 +10,7 @@ export function saveGameState(cookies: number, storeItems: StoreItem[]): void {
 
     const gameState: GameState = {
         cookies,
-        storeItems: structuredClone(storeItems)
+        storeItems: storeItems
     };
 
     const stateString = JSON.stringify(gameState);
